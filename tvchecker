@@ -1,4 +1,11 @@
 #!/bin/sh
+set -e
+
+if [ $# -gt 0 ]; then
+    file=$1
+else
+    file=tv-spain.json
+fi
 
 status_ok=":green_heart:"
 status_dead=":red_circle:"
@@ -22,24 +29,38 @@ Status | Canal | URL
 --- | --- | ---" 
 
 
-jq -c '.[]' tv-spain.json | while read i; do
+while read i; do
+
+#     echo $i
     # do stuff with $i
-    url=$(echo $i | jq -r '.link_m3u8')
+    #url=$(echo $i | jq -r '.link_m3u8')
     name=$(echo $i | jq -r '.name')
     id=$(echo $i | jq -r '.id')
     
-    request="$(curl --compressed -H "User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/44.0.2403.89 Safari/537.36" -m 7 -s -v "$url" 2>&1)"
+    #Iterate each link of stream
+    counter=0
+    url= #reset
+    stream_active="$status_dead" #Default disabled. Try to find one valid
+    while read j; do
+        [ ! -z $url ] && url="$url<br/>"
+        url=$url$(echo $j | jq -r '.url')
+        
+        set +e
+        request="$(curl --compressed -H "User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/44.0.2403.89 Safari/537.36" -m 10 --retry 2 --retry-delay 15 -s -v "$url" 2>&1)"
+        set -e
+        
+        if [ "$(echo "$request"| grep -i "Content-Type:" | cut -d: -f2 | awk '{print $1}' | tr -dc '[[:print:]]')" == "application/vnd.apple.mpegurl" ] || echo "$request" | grep -qi "EXT-X-STREAM"; then
+            stream_active="$status_ok" #If one stre
+            jq "map((select(.id == $id) | .link[$counter].enabled) |= true)" $file | sponge $file
+            #         echo "$request" > .log_ok_$id
+        else
+            jq "map((select(.id == $id) | .link[$counter].enabled) |= false)" $file | sponge $file
+            #         echo "$request" > .log_$id
+        fi
+        
+        let counter=$counter+1
+    done <<<$(echo $i | jq -c '.link[]' )
     
-    if [ "$(echo "$request"| grep -i "Content-Type:" | cut -d: -f2 | awk '{print $1}' | tr -dc '[[:print:]]')" == "application/vnd.apple.mpegurl" ] || echo "$request" | grep -qi "EXT-X-STREAM"; then
-        echo -n "$status_ok"
-        jq "map((select(.id == $id) | .enabled) |= true)" tv-spain.json | sponge tv-spain.json
-#         echo "$request" > .log_ok_$id
-    else
-        echo -n "$status_dead"
-        jq "map((select(.id == $id) | .enabled) |= false)" tv-spain.json | sponge tv-spain.json
-#         echo "$request" > .log_$id
-    fi
-    
-    echo "|$name|$url"
-    
-done
+    echo "$stream_active|$name|$url"
+
+done <<<$(jq -c '.[]' $file)
