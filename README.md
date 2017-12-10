@@ -5,7 +5,7 @@ Manual: [Cómo abrir estos canales de TDT en VLC](https://www.softzone.es/2016/1
 
 Plugin Kodi: Comprime la carpeta plugin.video.tdtiberia en un fichero zip con ese mismo nombre. Sigue la guia [instalar plugin en zip](http://kodi.wiki/view/HOW-TO:Install_add-ons_from_zip_files) para instalar el plugin.
 
-## Status Update: **09-12-17**
+## Status Update: **10-12-17**
 
 Status| Description
 --- | --- |
@@ -93,4 +93,4 @@ Status | Canal | URL
 :red_circle:|BETISTV|http://rbetis-hls.flumotion.com/rbetis/live/chunklist.m3u8
 :red_circle:|Nasa TV - EEUU|http://nasatv-lh.akamaihd.net/i/NASA_101@319270/master.m3u8
 :green_heart:|Cordoba Internacional|http://streaming.enetres.net/69BF7C8664934222BA3F58530449B8CE021/mobile/playlist.m3u8
-:green_heart:|HispanTV|http://178.32.255.199:1935/live/hispantv/playlist.m3u8
+:red_circle:|HispanTV|http://178.32.255.199:1935/live/hispantv/playlist.m3u8
