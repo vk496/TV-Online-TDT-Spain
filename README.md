@@ -5,7 +5,7 @@ Manual: [Cómo abrir estos canales de TDT en VLC](https://www.softzone.es/2016/1
 
 Plugin Kodi: Comprime la carpeta plugin.video.tdtiberia en un fichero zip con ese mismo nombre. Sigue la guia [instalar plugin en zip](http://kodi.wiki/view/HOW-TO:Install_add-ons_from_zip_files) para instalar el plugin.
 
-## Status Update: **18-04-18**
+## Status Update: **19-04-18**
 
 Status| Description
 --- | --- |
@@ -55,7 +55,7 @@ Status | Canal | URL
 :green_heart:|324 - Cataluña (CT)|http://ccma-tva-int-abertis-live.hls.adaptive.level3.net/int/ngrp:324_web/playlist.m3u8
 :green_heart:|C33 - Cataluña (CT)|http://ccma-tva-int-abertis-live.hls.adaptive.level3.net/int/ngrp:c33_web/playlist.m3u8
 :green_heart:|8TV - Cataluña (CT)|http://iphone.radiocat.net:1935/livereflector/8aldia.stream/playlist.m3u8
-:green_heart:|C. Extremadura - Extramadura (EX)|http://hlstv.canalextremadura.es/livetv/smil:multistream.smil/chunklist_b1596000_DVR.m3u8
+:red_circle:|C. Extremadura - Extramadura (EX)|http://hlstv.canalextremadura.es/livetv/smil:multistream.smil/chunklist_b1596000_DVR.m3u8
 :red_circle:|TVG Europa - Galicia (GA)|http://media3.crtvg.es/live/_definst_/tvge_2/playlist.m3u8
 :red_circle:|TVG America - Galicia (GA)|http://media3.crtvg.es/live/_definst_/tvga_2/playlist.m3u8
 :red_circle:|7 RM - Murcia (MC)|http://hls0.80670-live0.dna.qbrick.com/80670-live0/murciatv/playlist.m3u8
