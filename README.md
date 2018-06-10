@@ -5,7 +5,7 @@ Manual: [Cómo abrir estos canales de TDT en VLC](https://www.softzone.es/2016/1
 
 Plugin Kodi: Comprime la carpeta plugin.video.tdtiberia en un fichero zip con ese mismo nombre. Sigue la guia [instalar plugin en zip](http://kodi.wiki/view/HOW-TO:Install_add-ons_from_zip_files) para instalar el plugin.
 
-## Status Update: **09-06-18**
+## Status Update: **10-06-18**
 
 Status| Description
 --- | --- |
@@ -46,7 +46,7 @@ Status | Canal | URL
 :green_heart:|Aragon TV - Aragon (AR)|http://aragontv.stream.flumotion.com/aragontv/hls-live/main.m3u8
 :green_heart:|TPA - Asturias (AS)|http://iphone.rtpa.stream.flumotion.com/rtpa/tv-iphone/main.m3u8
 :green_heart:|IB3 - Baleares (IB)|http://ibsatiphone.ib3tv.com/iphoneliveIB3/IB3/bitrate_3.m3u8
-:red_circle:|RTVC net - Canarias (CN)|http://streaming2.mad.idec.net/rtvcnet/rtvcnet.drb.smil/Playlist.m3u8
+:green_heart:|RTVC net - Canarias (CN)|http://streaming2.mad.idec.net/rtvcnet/rtvcnet.drb.smil/Playlist.m3u8
 :red_circle:|Popular TV - Cantabria (CB)|http://cls.todostreaming.eu/ptvcantabria/livestream/chunklist.m3u8
 :red_circle:|La Regional (WEB) - C. Mancha (CM)|http://www.movipbox.com/LAREGIONAL/guia/inicio/demo_1/print_html5_moviles.php
 :red_circle:|CMM - C. Mancha (CM)|http://live-hls.rtvcm.stream.flumotion.com/rtvcm/hls-multi/main.m3u8
@@ -79,7 +79,7 @@ Status | Canal | URL
 :red_circle:|Popular TV - Cantabria (CB)|http://cls.todostreaming.eu/ptvcantabria/livestream/chunklist.m3u8
 :red_circle:|Diocesano TV - Toledo (CM)|http://178.32.53.254/rtvd/livestream/playlist.m3u8
 :green_heart:|BTV/Betevé - Barcerlona (CT)|http://api-cdn.overon.es/SmilLive/getLiveIOS/playlist.m3u8?stream=btv_stream01
-:green_heart:|VOTV - Barcelona (CT)|http://video-streaming.laxarxa.com:1935/ocasional5/directe/master.m3u8
+:red_circle:|VOTV - Barcelona (CT)|http://video-streaming.laxarxa.com:1935/ocasional5/directe/master.m3u8
 :green_heart:|Andorra TV - Lleida (CT)|http://194.158.80.31:443/live/web/master.m3u8
 :red_circle:|Hit TV - Madrid (MD)|http://tst.es.flash.glb.ipercast.net/tst.es-live/live/playlist_w.m3u8
 :red_circle:|Intereconomia - Madrid (MD)|http://edge3.adnstream.com:81/hls/intereconomia.m3u8
