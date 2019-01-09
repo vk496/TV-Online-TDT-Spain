@@ -5,7 +5,7 @@ Manual: [Cómo abrir estos canales de TDT en VLC](https://www.softzone.es/2016/1
 
 Plugin Kodi: Comprime la carpeta plugin.video.tdtiberia en un fichero zip con ese mismo nombre. Sigue la guia [instalar plugin en zip](http://kodi.wiki/view/HOW-TO:Install_add-ons_from_zip_files) para instalar el plugin.
 
-## Status Update: **08-01-19**
+## Status Update: **09-01-19**
 
 Status| Description
 --- | --- |
@@ -20,11 +20,11 @@ Status | Canal | URL
 :green_heart:|Antena 3|http://a3live-lh.akamaihd.net/i/antena3_1@35248/master.m3u8
 :red_circle:|Cuatro|http://www.apps4two.com/apps/tvonline/rm2access.php?o=cuatro
 :red_circle:|Telecinco|http://www.apps4two.com/apps/tvonline/rm2access.php?o=telecinco
-:green_heart:|La Sexta|http://a3live-lh.akamaihd.net/i/lasexta_1@35272/master.m3u8
+:red_circle:|La Sexta|http://a3live-lh.akamaihd.net/i/lasexta_1@35272/master.m3u8
 :green_heart:|A3Series|http://a3live-lh.akamaihd.net/i/a3shds/geoa3series_1@122775/master.m3u8
-:green_heart:|Nova|http://a3live-lh.akamaihd.net/i/nvhds/geonova_1@379404/master.m3u8
-:green_heart:|Neox|http://a3live-lh.akamaihd.net/i/nxhds/geoneox_1@35261/master.m3u8
-:green_heart:|Mega|http://a3live-lh.akamaihd.net/i/mghds/geomega_1@328914/master.m3u8
+:red_circle:|Nova|http://a3live-lh.akamaihd.net/i/nvhds/geonova_1@379404/master.m3u8
+:red_circle:|Neox|http://a3live-lh.akamaihd.net/i/nxhds/geoneox_1@35261/master.m3u8
+:red_circle:|Mega|http://a3live-lh.akamaihd.net/i/mghds/geomega_1@328914/master.m3u8
 :red_circle:|Be Mad TV|http://www.apps4two.com/apps/tvonline/rm2access.php?o=bemad
 :red_circle:|Divinity|http://www.apps4two.com/apps/tvonline/rm2access.php?o=divinity
 :green_heart:|Real Madrid TV|http://rmtv24hweblive-lh.akamaihd.net/i/rmtv24hwebes_1@300661/master.m3u8
