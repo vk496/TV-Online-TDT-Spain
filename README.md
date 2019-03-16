@@ -5,7 +5,7 @@ Manual: [Cómo abrir estos canales de TDT en VLC](https://www.softzone.es/2016/1
 
 Plugin Kodi: Comprime la carpeta plugin.video.tdtiberia en un fichero zip con ese mismo nombre. Sigue la guia [instalar plugin en zip](http://kodi.wiki/view/HOW-TO:Install_add-ons_from_zip_files) para instalar el plugin.
 
-## Status Update: **15-03-19**
+## Status Update: **16-03-19**
 
 Status| Description
 --- | --- |
@@ -67,20 +67,20 @@ Status | Canal | URL
 :red_circle:|Vaughan TV - Navarra (NC)|http://vaughantv.streaming-pro.com:1935/live/vaughantv/playlist.m3u8
 :green_heart:|Eitb - P.Vasco (PV)|http://etbvnogeo-lh.akamaihd.net/i/ETBEITBEUS_1@300391/master.m3u8
 :red_circle:|TVR 10 - La Rioja (RI)|http://teledifusion.tv:1935/rioja/rioja/playlist.m3u8
-:red_circle:|Mediterraneo TV - C.Valenciana (VC)|http://streaming.enetres.net/489DDF7FE98241D19D8970314BC9D3EF021/mobile/playlist.m3u8?idLive=021&referer=aHR0cDovL3RlbGVhbWUuY29tL3R2bWVkaXRlcnJhbmVvZW5kaXJlY3RvLw==&zz=m3u8
+:green_heart:|Mediterraneo TV - C.Valenciana (VC)|http://streaming.enetres.net/489DDF7FE98241D19D8970314BC9D3EF021/mobile/playlist.m3u8?idLive=021&referer=aHR0cDovL3RlbGVhbWUuY29tL3R2bWVkaXRlcnJhbmVvZW5kaXJlY3RvLw==&zz=m3u8
 :green_heart:|RTV Ceuta - Ceuta (CE)|http://teledifusion.tv:1935/rtvcetv/rtvcetvlive/playlist.m3u8
 :red_circle:|Ceuta TV - Ceuta (CE)|http://cls.todostreaming.eu/anguloce/livestream/chunklist.m3u8
 :red_circle:|TV Melilla - Melilla (ML)|http://melillatv.hls.flumotion.com/melilla/live-hls-2/playlist.m3u8
 :red_circle:|Onda Algeciras TV - Cádiz (AN)|http://cls.provideo.es/algecirastv/livestream/master.m3u8
 :red_circle:|Canal Costa - Huelva (AN)|http://cls2.todostreaming.eu/azahara/IKbtqOuj/playlist.m3u8
 :red_circle:|Huesca TV - Huesca (AR)|http://teledifusion.tv:1935/dia/dia/playlist.m3u8
-:red_circle:|TV Ibiza-Formentera - Baleares(IB)|http://server10.streaming-pro.com:1937/live/teftvlive/playlist.m3u8
+:green_heart:|TV Ibiza-Formentera - Baleares(IB)|http://server10.streaming-pro.com:1937/live/teftvlive/playlist.m3u8
 :red_circle:|Tindaya TV - Las Palmas G.C. (CN)|http://188.165.135.22/tindayatv/livestream/playlist.m3u8
 :red_circle:|Popular TV - Cantabria (CB)|http://cls.todostreaming.eu/ptvcantabria/livestream/chunklist.m3u8
 :red_circle:|Diocesano TV - Toledo (CM)|http://178.32.53.254/rtvd/livestream/playlist.m3u8
 :red_circle:|BTV/Betevé - Barcerlona (CT)|http://api-cdn.overon.es/SmilLive/getLiveIOS/playlist.m3u8?stream=btv_stream01
 :green_heart:|VOTV - Barcelona (CT)|http://video-streaming.laxarxa.com:1935/ocasional5/directe/master.m3u8
-:green_heart:|Andorra TV - Lleida (CT)|http://194.158.80.31:443/live/web/master.m3u8
+:red_circle:|Andorra TV - Lleida (CT)|http://194.158.80.31:443/live/web/master.m3u8
 :red_circle:|Hit TV - Madrid (MD)|http://tst.es.flash.glb.ipercast.net/tst.es-live/live/playlist_w.m3u8
 :red_circle:|Intereconomia - Madrid (MD)|http://edge3.adnstream.com:81/hls/intereconomia.m3u8
 :red_circle:|Ribera TV - Valencia (VC)|http://orion.comelson.es/ribera/livestream/chunklist_w476320974.m3u8
@@ -88,7 +88,7 @@ Status | Canal | URL
 :red_circle:|Televisió de Girona|http://tvgirona.dnssw.net:1935/live/Icontouch/playlist.m3u8
 :red_circle:|Tarragona TV|http://cdns724ste1010.shooowit.net/tac12live/amlst:live/playlist.m3u8
 :red_circle:|El Punt Avui TV|http://cdns724ste1010.shooowit.net/puntavuitvlive/smil:live.smil/playlist.m3u8
-:green_heart:|Terrassa TV|http://cast.streamingconnect.tv:1935/terrassaweb/terrassaweb/playlist.m3u8
+:red_circle:|Terrassa TV|http://cast.streamingconnect.tv:1935/terrassaweb/terrassaweb/playlist.m3u8
 :red_circle:|Sevilla F.C.|http://sevillafc_live-lh.akamaihd.net/i/video_0@354142/index_0700_av-p.m3u8
 :red_circle:|BETISTV|http://rbetis-hls.flumotion.com/rbetis/live/chunklist.m3u8
 :red_circle:|Nasa TV - EEUU|http://nasatv-lh.akamaihd.net/i/NASA_101@319270/master.m3u8
