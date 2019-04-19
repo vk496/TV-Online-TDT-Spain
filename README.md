@@ -5,7 +5,7 @@ Manual: [Cómo abrir estos canales de TDT en VLC](https://www.softzone.es/2016/1
 
 Plugin Kodi: Comprime la carpeta plugin.video.tdtiberia en un fichero zip con ese mismo nombre. Sigue la guia [instalar plugin en zip](http://kodi.wiki/view/HOW-TO:Install_add-ons_from_zip_files) para instalar el plugin.
 
-## Status Update: **18-04-19**
+## Status Update: **19-04-19**
 
 Status| Description
 --- | --- |
@@ -16,7 +16,7 @@ Status| Description
 Status | Canal | URL 
 --- | --- | ---
 :red_circle:|La 1|http://hlsackdn-gl7.rtve.es/i/hlsdvrlive_1@566874/master.m3u8
-:green_heart:|La 2|http://rtve-live.hds.adaptive.level3.net/hls-live/rtvegl0-la2lv3aomgl0/_definst_/live.m3u8
+:red_circle:|La 2|http://rtve-live.hds.adaptive.level3.net/hls-live/rtvegl0-la2lv3aomgl0/_definst_/live.m3u8
 :green_heart:|Antena 3|http://a3live-lh.akamaihd.net/i/antena3_1@35248/master.m3u8
 :red_circle:|Cuatro|http://www.apps4two.com/apps/tvonline/rm2access.php?o=cuatro
 :red_circle:|Telecinco|http://www.apps4two.com/apps/tvonline/rm2access.php?o=telecinco
@@ -46,7 +46,7 @@ Status | Canal | URL
 :red_circle:|Aragon TV - Aragon (AR)|http://aragontv.stream.flumotion.com/aragontv/hls-live/main.m3u8
 :red_circle:|TPA - Asturias (AS)|http://iphone.rtpa.stream.flumotion.com/rtpa/tv-iphone/main.m3u8
 :green_heart:|IB3 - Baleares (IB)|http://ibsatiphone.ib3tv.com/iphoneliveIB3/IB3/bitrate_3.m3u8
-:red_circle:|RTVC net - Canarias (CN)|http://streaming2.mad.idec.net/rtvcnet/rtvcnet.drb.smil/Playlist.m3u8
+:green_heart:|RTVC net - Canarias (CN)|http://streaming2.mad.idec.net/rtvcnet/rtvcnet.drb.smil/Playlist.m3u8
 :red_circle:|Popular TV - Cantabria (CB)|http://cls.todostreaming.eu/ptvcantabria/livestream/chunklist.m3u8
 :red_circle:|La Regional (WEB) - C. Mancha (CM)|http://www.movipbox.com/LAREGIONAL/guia/inicio/demo_1/print_html5_moviles.php
 :red_circle:|CMM - C. Mancha (CM)|http://live-hls.rtvcm.stream.flumotion.com/rtvcm/hls-multi/main.m3u8
