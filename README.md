@@ -5,7 +5,7 @@ Manual: [Cómo abrir estos canales de TDT en VLC](https://www.softzone.es/2016/1
 
 Plugin Kodi: Comprime la carpeta plugin.video.tdtiberia en un fichero zip con ese mismo nombre. Sigue la guia [instalar plugin en zip](http://kodi.wiki/view/HOW-TO:Install_add-ons_from_zip_files) para instalar el plugin.
 
-## Status Update: **08-05-19**
+## Status Update: **09-05-19**
 
 Status| Description
 --- | --- |
@@ -16,7 +16,7 @@ Status| Description
 Status | Canal | URL 
 --- | --- | ---
 :red_circle:|La 1|http://hlsackdn-gl7.rtve.es/i/hlsdvrlive_1@566874/master.m3u8
-:green_heart:|La 2|http://rtve-live.hds.adaptive.level3.net/hls-live/rtvegl0-la2lv3aomgl0/_definst_/live.m3u8
+:red_circle:|La 2|http://rtve-live.hds.adaptive.level3.net/hls-live/rtvegl0-la2lv3aomgl0/_definst_/live.m3u8
 :red_circle:|Antena 3|http://a3live-lh.akamaihd.net/i/antena3_1@35248/master.m3u8
 :red_circle:|Cuatro|http://www.apps4two.com/apps/tvonline/rm2access.php?o=cuatro
 :red_circle:|Telecinco|http://www.apps4two.com/apps/tvonline/rm2access.php?o=telecinco
